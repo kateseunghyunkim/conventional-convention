@@ -1,6 +1,21 @@
+fruits = ['Apple', 'Banana', 'Pineapple']
+
+animals = [
+        'Lion',
+        'Tiger',
+        'Rabbit'
+        ]
+
+Clubs = [
+        'ManU',
+        'ManC',
+        ]
+ 
 for i in range(1, 16+1):
     if i%3==0:
         print('fizz')
-    else:
+    elif i%5==0:
+        print('buzz')
+    else: 
         print(i)
-
+  
